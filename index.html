@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5e8d2">
+  <title>Dashain | Postcards from Kathmandu</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=DM+Mono&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css?v=5">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a href="#slide-1" id="homeLink" class="brand">
+      <span class="brand-icon">द</span>
+      <span>DASHAIN / दशैं</span>
+    </a>
+    <span class="top-label">POSTCARDS FROM KATHMANDU ✳ 1986</span>
+    <button id="notesButton" class="notes-button" aria-pressed="false">
+      ✎ NOTES
+    </button>
+  </header>
+
+  <main id="presentation">
+
+    <!-- 01: OPENING -->
+    <section class="slide hero active" data-title="WELCOME">
+      <div class="hero-copy">
+        <div class="eyebrow">NEPAL • A FESTIVAL OF HOMECOMING • VOL. 01</div>
+        <p class="nepali">शुभ विजया दशमी</p>
+        <h1>POSTCARDS<br>FROM <em>KATHMANDU.</em></h1>
+        <p class="lead">
+          A journey through Dashain — where blessings,
+          childhood memories, and the feeling of home come together.
+        </p>
+        <button class="primary-button" data-next>
+          BEGIN THE JOURNEY <span>↗</span>
+        </button>
+        <div class="small-label">9 CHAPTERS / APPROX. 8 MINUTES</div>
+      </div>
+      <div class="city-art" aria-label="Illustrated retro Kathmandu skyline">
+        <div class="sun"></div>
+        <div class="mountain back"></div>
+        <div class="mountain front"></div>
+        <div class="kite kite-one">◆</div>
+        <div class="kite kite-two">◆</div>
+        <div class="buildings">
+          <div class="house house-one"></div>
+          <div class="house house-two"></div>
+          <div class="temple">
+            <div class="temple-spire"></div>
+            <div class="temple-roof top-roof"></div>
+            <div class="temple-roof bottom-roof"></div>
+            <div class="temple-base"></div>
+          </div>
+          <div class="house house-three"></div>
+          <div class="house house-four"></div>
+        </div>
+        <div class="postmark">KTM<br>1986<br><small>POSTCARD 01</small></div>
+      </div>
+    </section>
+
+    <!-- 02: WHAT IS DASHAIN -->
+    <section class="slide split" data-title="THE FEELING">
+      <div class="slide-copy">
+        <div class="eyebrow">01 / THE BIG PICTURE</div>
+        <h2>MORE THAN<br>A <em>FESTIVAL.</em></h2>
+        <p>Dashain is one of Nepal's biggest festivals, traditionally celebrated over <strong>15 days</strong>.</p>
+        <p>It is a time for family reunions, worship, blessings, celebrations, and the excitement of going home.</p>
+        <p>For many Nepalis, it brings back memories of school holidays, new clothes, and visiting relatives.</p>
+        <blockquote>It's about coming home.</blockquote>
+      </div>
+      <div class="poster orange-poster">
+        <div class="poster-top">NEPAL POST / ISSUE NO. 02</div>
+        <div class="giant-nepali">घर</div>
+        <div class="poster-rule"></div>
+        <div class="poster-headline">EVERY ROAD<br>LEADS HOME.</div>
+        <div class="poster-bottom">FAMILY · MEMORY · BELONGING</div>
+      </div>
+    </section>
+
+    <!-- 03: MYTHOLOGY -->
+    <section class="slide split" data-title="THE LEGEND">
+      <div class="slide-copy">
+        <div class="eyebrow">02 / THE STORY OF DASHAIN</div>
+        <h2>GOOD WINS.<br><em>HOPE STAYS.</em></h2>
+        <p>Dashain celebrates the victory of good over evil.</p>
+        <p>One major Hindu tradition honors Goddess <strong>Durga</strong> and her victory over the demon Mahishasura.</p>
+        <p>Other traditions also connect Vijayadashami with Lord Rama's victory over Ravana.</p>
+        <blockquote>A celebration of courage, strength, and renewal.</blockquote>
+      </div>
+      <div class="poster dark-poster">
+        <div class="poster-top">DIVINE FEMININE / SHAKTI</div>
+        <div class="shakti-art">
+          <div class="sun-rays"></div>
+          <div class="shakti-text">शक्ति</div>
+        </div>
+        <div class="poster-bottom">A STORY OF STRENGTH AND LIGHT</div>
+      </div>
+    </section>
+
+    <!-- 04: FESTIVAL CALENDAR -->
+    <section class="slide full-slide" data-title="15 DAYS">
+      <div class="eyebrow">03 / THE FESTIVAL CALENDAR</div>
+      <h2>15 DAYS.<br><em>COUNTLESS MEMORIES.</em></h2>
+      <p class="intro">Click each day to learn about the traditions.</p>
+
+      <div class="timeline">
+        <button class="day-card selected" data-day="0" aria-pressed="true">
+          <small>DAY 01</small>
+          <span>घटस्थापना</span>
+          <strong>GHATASTHAPANA</strong>
+        </button>
+        <button class="day-card" data-day="1" aria-pressed="false">
+          <small>DAY 07</small>
+          <span>फूलपाती</span>
+          <strong>PHULPATI</strong>
+        </button>
+        <button class="day-card" data-day="2" aria-pressed="false">
+          <small>DAYS 08–09</small>
+          <span>अष्टमी / नवमी</span>
+          <strong>ASHTAMI + NAWAMI</strong>
+        </button>
+        <button class="day-card" data-day="3" aria-pressed="false">
+          <small>DAY 10</small>
+          <span>विजया दशमी</span>
+          <strong>VIJAYA DASHAMI</strong>
+        </button>
+        <button class="day-card" data-day="4" aria-pressed="false">
+          <small>DAY 15</small>
+          <span>पूर्णिमा</span>
+          <strong>KOJAGRAT PURNIMA</strong>
+        </button>
+      </div>
+
+      <div id="dayDetail" class="day-detail" aria-live="polite">
+        <strong>DAY 01 / PLANTING NEW BEGINNINGS</strong>
+        <p>Families prepare a sacred space and grow jamara, the sprouts later used for Dashain blessings.</p>
+      </div>
+    </section>
+
+    <!-- 05: TIKA + JAMARA -->
+    <section class="slide split" data-title="TIKA + JAMARA">
+      <div class="slide-copy">
+        <div class="eyebrow">04 / THE HEART OF DASHAIN</div>
+        <h2>A LITTLE RED.<br><em>A LOT OF LOVE.</em></h2>
+        <p>On Vijaya Dashami, younger family members receive blessings from elders.</p>
+        <p><strong>Tika:</strong> A mark on the forehead, often made with red vermilion, rice, and yogurt.</p>
+        <p><strong>Jamara:</strong> Sacred yellow-green sprouts grown during Dashain.</p>
+        <p><strong>Dakshina:</strong> Money sometimes gifted alongside blessings — especially exciting for children!</p>
+        <blockquote>Blessings passed through generations.</blockquote>
+      </div>
+      <div class="poster tika-poster">
+        <div class="poster-top">BLESSINGS / ISSUE NO. 05</div>
+        <div class="tika-medallion">
+          <div class="jamara-symbol">✳</div>
+          <div class="red-tika"></div>
+          <div class="tika-label">टीका</div>
+        </div>
+        <div class="poster-bottom">WITH LOVE, FROM OUR ELDERS</div>
+      </div>
+    </section>
+
+    <!-- 06: OLD KATHMANDU -->
+    <section class="slide split" data-title="OLD KATHMANDU">
+      <div class="slide-copy">
+        <div class="eyebrow">05 / KATHMANDU, ONCE UPON A TIME</div>
+        <h2>THE SKY WAS<br>FULL OF <em>KITES.</em></h2>
+        <p>Imagine Kathmandu in the 1980s.</p>
+        <p>Children flying <strong>changa</strong> from rooftops, bamboo swings called <strong>linge ping</strong>, and transistor radios playing at home.</p>
+        <p>New clothes, school holidays, family visits, and collecting dakshina.</p>
+        <blockquote>Some memories never really leave you.</blockquote>
+      </div>
+      <div class="poster kathmandu-poster">
+        <div class="poster-title">KATHMANDU<br><em>c. 1980s</em></div>
+        <div class="giant-kite">◆</div>
+        <div class="rooftops"></div>
+        <div class="poster-bottom">CHANGA / PING / CHILDHOOD</div>
+      </div>
+    </section>
+
+    <!-- 07: FOOD -->
+    <section class="slide full-slide food-slide" data-title="THE FEAST">
+      <div class="eyebrow">06 / THE FOOD OF DASHAIN</div>
+      <h2>COME HUNGRY.<br><em>LEAVE HAPPY.</em></h2>
+      <p class="intro">No Nepali celebration is complete without someone insisting you eat more.</p>
+
+      <div class="food-grid">
+        <article class="food-card">
+          <div class="food-icon">◎</div>
+          <small>01 / SWEET + CRISPY</small>
+          <h3>SEL ROTI</h3>
+          <p>Golden ring-shaped rice bread, often made for celebrations.</p>
+        </article>
+        <article class="food-card">
+          <div class="food-icon">▰</div>
+          <small>02 / THE CLASSIC SIDE</small>
+          <h3>CHIURA</h3>
+          <p>Beaten rice, served with curries, achar, and other dishes.</p>
+        </article>
+        <article class="food-card">
+          <div class="food-icon">♨</div>
+          <small>03 / FAMILY RECIPES</small>
+          <h3>MASU + ACHAR</h3>
+          <p>Flavorful curries, pickles, and cherished family recipes.</p>
+        </article>
+      </div>
+
+      <div class="small-label">FOOD TRADITIONS DIFFER BETWEEN FAMILIES AND COMMUNITIES.</div>
+    </section>
+
+    <!-- 08: THEN VS NOW -->
+    <section class="slide split" data-title="THEN + NOW">
+      <div class="slide-copy">
+        <div class="eyebrow">07 / TRADITIONS THROUGH TIME</div>
+        <h2>TRADITIONS<br><em>TRAVEL.</em></h2>
+        <p>For some, Dashain means returning to the village or family home where they grew up.</p>
+        <p>For others, it means recreating familiar traditions thousands of kilometers away.</p>
+        <p>Today, Nepalis celebrate around the world through family gatherings, meals, and even blessings over video calls.</p>
+        <blockquote>Home isn't always a place. Sometimes, it's the people.</blockquote>
+      </div>
+      <div class="poster gold-poster">
+        <div class="era">
+          <small>KATHMANDU / 1986</small>
+          <strong>ROOFTOPS<br>& REUNIONS</strong>
+        </div>
+        <div class="era-divider">✳</div>
+        <div class="era">
+          <small>THE WORLD / TODAY</small>
+          <strong>NEW CITIES.<br>SAME LOVE.</strong>
+        </div>
+      </div>
+    </section>
+
+    <!-- 09: QUIZ + END -->
+    <section class="slide finale" data-title="THE TAKEAWAY">
+      <div class="eyebrow">08 / ONE LAST POSTCARD</div>
+      <p class="nepali">दशैंको शुभकामना!</p>
+      <h2>HOME ISN'T<br>JUST A <em>PLACE.</em></h2>
+      <p class="final-text">It's the people who save you a seat, a plate, and a blessing.</p>
+
+      <div class="quiz">
+        <p>QUICK QUIZ: WHAT ARE THE SACRED SPROUTS CALLED?</p>
+        <div class="quiz-options">
+          <button data-correct="false">CHIURA</button>
+          <button data-correct="true">JAMARA</button>
+          <button data-correct="false">PHULPATI</button>
+        </div>
+        <div id="quizResult" aria-live="polite"></div>
+      </div>
+
+      <button id="replayButton" class="primary-button replay">↶ REPLAY THE STORY</button>
+      <div class="closing-credit">MADE WITH ♥ FOR NEPAL / धन्यवाद</div>
+    </section>
+
+  </main>
+
+  <aside class="presenter-notes" id="presenterNotes" hidden>
+    <strong>✎ PRESENTER NOTES</strong>
+    <p id="notesText"></p>
+  </aside>
+
+  <footer class="bottom-bar">
+    <div class="progress">
+      <span id="slideCount">01 / 09</span>
+      <div class="progress-track"><div id="progressBar"></div></div>
+      <span id="slideTitle">WELCOME</span>
+    </div>
+    <div class="slide-navigation">
+      <span>← → TO NAVIGATE</span>
+      <button id="prevButton" aria-label="Previous slide">←</button>
+      <button id="nextButton" aria-label="Next slide">→</button>
+    </div>
+  </footer>
+
+  <script src="./script.js?v=5" defer></script>
+</body>
+</html>
